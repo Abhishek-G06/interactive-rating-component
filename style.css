@@ -156,3 +156,14 @@ span {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 375px) {
+    .card {
+      width: 100%; /* Make the card full width on mobile */
+      padding: 20px; /* Adjust padding for better mobile layout */
+    }
+  
+    .rate {
+      flex-direction: column; /* Stack the rating buttons vertically on mobile */
+    }
+}
