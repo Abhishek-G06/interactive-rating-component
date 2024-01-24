@@ -159,7 +159,7 @@ span {
 
 @media screen and (max-width: 375px) {
     .card {
-      width: 100%; /* Make the card full width on mobile */
+      width: auto; /* Make the card full width on mobile */
       padding: 20px; /* Adjust padding for better mobile layout */
     }
   
